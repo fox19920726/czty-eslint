@@ -1,0 +1,21 @@
+{
+  "name": "czty-eslint",
+  "version": "0.0.6",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jin",
+  "license": "MIT",
+  "main": "index.js",
+  "bin": {
+    "czty-eslint": "./index.js"
+  },
+  "dependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.4.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-vue": "^5.2.3"
+  }
+}
