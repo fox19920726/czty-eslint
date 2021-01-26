@@ -1,6 +1,6 @@
 {
   "name": "czty-eslint",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,12 +11,12 @@
   "bin": {
     "czty-eslint": "./index.js"
   },
-  "publishConfig" : {
-    "registry" : "http://192.168.150.186:11111/repository/npm-internal/"
+  "publishConfig": {
+    "registry": "http://192.168.150.186:11111/repository/npm-internal/"
   },
   "dependencies": {
     "babel-eslint": "^10.0.3",
-    "eslint": "^6.4.0",
+    "eslint": "^7.18.0",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-vue": "^5.2.3"
